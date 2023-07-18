@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.DetallesFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/detalleCard"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/nombreEjercicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth_bold"
+            android:gravity="center|center_horizontal"
+            android:text="Curl de Bíceps con Mancuernas" />
+
+        <TextView
+            android:id="@+id/MúsculoInvolucrado"
+            style="@android:style/Widget.Material.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/amaranth_italic"
+            android:text="Bíceps" />
+
+        <TextView
+            android:id="@+id/descripcionEjercicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="De pie, con mancuernas en las manos, levanta las mancuernas flexionando los codos hasta que los brazos estén completamente doblados." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="80dp"
+            android:gravity="center_horizontal"
+            android:text="Agregar a mi rutina" />
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
