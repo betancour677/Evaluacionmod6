@@ -11,9 +11,11 @@ import org.jetbrains.annotations.NotNull
     @NotNull
     val id: Int,
     val nombre: String,
-    val descripcion: String,
-    val musculos_involucrados: String
-
-     )
+    val imagelink: String,
+    val origen: String,
+    val marca: String,
+    val numero:String,
+    val precio:String,
+    )
 
 
